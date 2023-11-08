@@ -19,3 +19,5 @@ for char in z:
         print(count)
 
 print(level)
+
+print("Hi")
