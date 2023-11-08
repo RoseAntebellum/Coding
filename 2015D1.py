@@ -20,6 +20,4 @@ for char in z:
 
 print(level)
 
-print("Hi")
-
-print("this is a new test Can this please work")
+print("Hi can this please update")
