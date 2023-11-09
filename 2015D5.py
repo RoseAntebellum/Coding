@@ -7,7 +7,7 @@ goodList = 0
 for x in PuzIn:
     niceList = True
     
-    vowel = x.count("a") + x.count("e") + x.count("i") + x.count("o") + x.count("u")
+    """vowel = x.count("a") + x.count("e") + x.count("i") + x.count("o") + x.count("u")
     if vowel < 3:
         niceList = False
     
@@ -25,7 +25,16 @@ for x in PuzIn:
         y += 1
         
     if letterRepeat == False:
-        niceList = False
+        niceList = False"""
+    
+    xLength = len(x)
+    y = 0
+    letterRepeat = False
+    while y < len(x) - 2:
+        z = list(x)
+        if z[y] == z[y+2]:
+            letterRepeat = True
+        y += 1
 
     if niceList == True:
         goodList += 1
